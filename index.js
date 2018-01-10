@@ -33,7 +33,7 @@ function findBy(array, findFn) {
     // Return `null` if the value isn't found.
 
     var found
-    
+
     for (var i=0; i < array.length; i++) {
         found = findFn(array[i])
         if (found)
