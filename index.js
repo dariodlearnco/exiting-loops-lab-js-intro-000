@@ -32,12 +32,9 @@ function findBy(array, findFn) {
     // Looks for a value in `array` based on the return value of `findFn`.
     // Return `null` if the value isn't found.
 
-    var found = null
-
     for (var i=0; i < array.length; i++) {
         if (findFn(array[i]))
             return array[i]
-            
         }
     return null
 }
