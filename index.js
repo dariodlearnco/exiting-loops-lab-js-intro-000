@@ -36,8 +36,8 @@ function findBy(array, findFn) {
 
     for (var i=0; i < array.length; i++) {
         if (findFn(array[i]))
-            found = array[i]
-            break
+            return array[i]
+            
         }
     return null
 }
