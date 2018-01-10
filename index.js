@@ -39,6 +39,5 @@ function findBy(array, findFn) {
         if (found)
             return found
         }
-    }
     return null
 }
