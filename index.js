@@ -1,5 +1,5 @@
 function breakOut(array, changeValue, stopValue) {
-    
+
     // Iterates through `array` and changes every element to `changeValue`
     // until the loop reaches `stopValue`. Then we `break` out of the loop and
     // return the array.
@@ -14,7 +14,7 @@ function breakOut(array, changeValue, stopValue) {
 }
 
 function keepGoing(array, changeValue, skipValue) {
-    
+
     // Iterates through `array` and changes every element to `changeValue`
     // except those that match `skipValue`. Then return the array.
 
