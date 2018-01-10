@@ -26,3 +26,19 @@ function keepGoing(array, changeValue, skipValue) {
     }
     return array
 }
+
+function findBy(array, findFn) {
+
+    // Looks for a value in `array` based on the return value of `findFn`.
+    // Return `null` if the value isn't found.
+
+    var found
+    
+    for (var i=0; i < array.length; i++) {
+        found = findFn(array[i])
+        if (found)
+            return found
+        }
+    }
+    return null
+}
